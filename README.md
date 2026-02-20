@@ -1,1 +1,2 @@
 # hacked2026
+[Miro Brainstorm Board](https://miro.com/welcomeonboard/MHlMT0lKM0k0UmtyVjVVMlhNS0dFSlJDUXhWS0xjV2xZTHZMYStGVzNhWTFiczUwb0kwbVJ5dGI2TW5NcFFwRzB3endvbnNGdk1rSW5DbllDQlk0R1d5RE15WVZ6bnhsdXYzNmdGL1ZLeFhndlNKY1VEa2hpQVhjZTd1aVJsT3hQdGo1ZEV3bUdPQWRZUHQzSGl6V2NBPT0hdjE=?share_link_id=967805345412)
