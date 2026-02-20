@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Video Controller</title>
+    <link rel="stylesheet" href="../css/popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Smart Video Controller</h1>
+
+      <div class="status-section">
+        <h2>Status</h2>
+        <p id="status-text">Status: Inactive</p>
+      </div>
+
+      <div class="controls-section">
+        <button id="start-detection-btn" class="btn btn-primary">
+          Start Detection
+        </button>
+        <button id="stop-detection-btn" class="btn btn-secondary" disabled>
+          Stop Detection
+        </button>
+      </div>
+
+      <div class="settings-section">
+        <h3>Settings</h3>
+        <label>
+          <input type="checkbox" id="pause-on-look-away" checked />
+          Pause when looking away
+        </label>
+        <label>
+          <input type="checkbox" id="rewind-on-confusion" checked />
+          Rewind on confused expression
+        </label>
+        <label>
+          Rewind duration (seconds):
+          <input
+            type="number"
+            id="rewind-duration"
+            value="5"
+            min="1"
+            max="30"
+          />
+        </label>
+      </div>
+
+      <div class="log-section">
+        <h3>Detection Log</h3>
+        <div id="detection-log" class="log-box"></div>
+      </div>
+    </div>
+
+    <script src="../js/popup.js"></script>
+  </body>
+</html>
