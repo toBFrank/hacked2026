@@ -1,10 +1,26 @@
 {
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
-  "version": "1.0",
   "manifest_version": 3,
+  "name": "HackED 2026",
+  "version": "1.0",
+  "description": "A Chrome extension that uses face and gesture detection to control video",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "duck_logo.jpg"  
-  }
+    "default_popup": "html/popup.html",
+    "default_title": "[HackED 2026 - INSERT NAME HERE]",
+    "default_icon": "icons/duck_logo.jpg"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/content.js"],
+      "all_frames": false
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["lib/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
